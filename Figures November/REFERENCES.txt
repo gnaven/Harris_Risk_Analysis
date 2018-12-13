@@ -1,6 +1,0 @@
-https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti
-
-
-https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html
-
-https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiMnMHR94LfAhVST98KHVvfCcYQjB16BAgBEAQ&url=https%3A%2F%2Fcommunity.jmp.com%2Ft5%2FJMP-Blog%2FPrincipal-components-or-factor-analysis%2Fba-p%2F38347&psig=AOvVaw2u-MxT4dFCRZbax84PMyIt&ust=1543901533053266
