@@ -34,3 +34,32 @@ Dimensionality Reduction:
 		- PLOT_Varimax.ipynb: Plots figures for the distributions of the data on the PCA + Varimax Model.
 
 		- PCA_VM_FA_results: 12 csv dataframe files -- Results of Dimensionality Reduction
+
+Clustering :
+	Risk_CLuster_1:
+	How to Run : python Risk_CLuster_1.py -i 'filename for the datafile'
+									   -t 'km' <- this indicates using k-means algorithm
+									   -k 7 <- max number of clusters to be used for k
+	This algorithm has the ability to iterate over 2 to k number of cluster on the selected features.
+	It is also possible to decide if the algorithm needs to iterate over combinations of features instead.
+	That option exists in the feature_search() method. 
+	The program outputs a csv file, with the results of CH and Silhouette score for a cluster number 
+	and feature combination. 
+	It also outputs a csv file with cluster labels and the full data for the best clustering option
+	The program also uses prarallel programming to speed up running tests. It will use all available 
+	cores of the computer.
+Results:
+	Visualization:
+	How to Run: python Visualization.py -i 'folder that contains output file(s) with the cluster labels'
+										-c 'name of the cluster column'
+										-r 'name of the Risk Sum column'
+										-o 'name of the directory where all the results should be stored'
+	This algorithm has methods to output visualization and results. The following are outputted:
+	1) csv file that contains raw features mapped back to cluster labels with statistical test results and 
+		mean value of each raw features in each clusters
+	2) Outputs folder with all the distribution of each raw feature in each cluster
+	3) Bar graph of risk sum values mapped back to each clusters 
+	4) Histogram on proportion of each cluster's PCA/FA dimensions
+	5) TSNE plot that shows overall cluster seperation 
+		- TSNE fit on new componenets
+		- TSNE fit on raw features
