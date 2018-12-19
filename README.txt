@@ -9,7 +9,7 @@ Dimensionality Reduction:
 - Final Submission
 	- Final Figures: Figures generated during the project
 	- Harris Data
-		- Results4: All the clustering results for our models -- Details Belo
+		- Results5: All the clustering results for our models -- Details Belo
 		- old_data: data from Harris:
 			- 3 files: scorecard, purchasing tool, and expo archive
 
