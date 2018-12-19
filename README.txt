@@ -44,10 +44,7 @@ Dimensionality Reduction:
 Clustering :
 	Risk_CLuster_1:
 	How to Run : python Risk_CLuster_1.py -i 'filename for the datafile'
-	Risk cluster default values are set to run on the PCA_VM_FA_results folder files -- The 12 csv dataframe files
-		-i adds files to run on
-		-t sets model
-		-k sets max clusters
+		-Runs on results of dimensionality reduction -- Defaults to PCA_VM_FA results folder
 									   -t 'km' <- this indicates using k-means algorithm
 									   -k 7 <- max number of clusters to be used for k
 	This algorithm has the ability to iterate over 2 to k number of cluster on the selected features.
