@@ -9,7 +9,7 @@ Dimensionality Reduction:
 - Final Submission
 	- Final Figures: Figures generated during the project
 	- Harris Data
-		- Results5: All the clustering results for our models -- Details Belo
+		- Results4: All the clustering results for our models -- Details Belo
 		- old_data: data from Harris:
 			- 3 files: scorecard, purchasing tool, and expo archive
 
@@ -20,16 +20,21 @@ Dimensionality Reduction:
 			- Engineers the feature unexp_cost
 			- Engineers the "mean" and "median" features for aggregated values
 			- Produces 3 models with binning structures of 2,3, and 5 bins.
+				- join_binary_scale.csv
+				- join_three_scale.csv
+				- join_five_scale.csv
 		- distribution_analysis.ipynb: Plots the distributions of the data after preparation
 
 		- prepared_data: 3 csv dataframe files -- Results of data prep
 
 		- PCA_VM_FA_script_join.ipynb: MAIN DIMENSIONALITY REDUCTION
 			- Generates new risk sum
-			- Generates somponent features with:
+			- Generates component features with:
 				- Principal Component Analysis
 				- PCA+Varimax
-				- Factor Analysis models.
+				- Factor Analysis
+			- Ouptuts 3 dataframe csv files from input binning structure for: 
+				- PCA, PCA+Varimax, Factor Analysis
 		- PCA_NoiseReduceFigure.ipynb: Generates an example graphic of pca noise reduction.
 		- PLOT_PCA.ipynb: Plots figures for the distributions of the data on the PCA model
 		- PLOT_Varimax.ipynb: Plots figures for the distributions of the data on the PCA + Varimax Model.
@@ -39,6 +44,10 @@ Dimensionality Reduction:
 Clustering :
 	Risk_CLuster_1:
 	How to Run : python Risk_CLuster_1.py -i 'filename for the datafile'
+	Risk cluster default values are set to run on the PCA_VM_FA_results folder files -- The 12 csv dataframe files
+		-i adds files to run on
+		-t sets model
+		-k sets max clusters
 									   -t 'km' <- this indicates using k-means algorithm
 									   -k 7 <- max number of clusters to be used for k
 	This algorithm has the ability to iterate over 2 to k number of cluster on the selected features.

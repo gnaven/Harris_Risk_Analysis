@@ -388,7 +388,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=help_intro)
 
     parser.add_argument('-i', help='inputs, ex:example/test.csv', type=str, 
-                        default='Harris Data/new_data/PCA_results/*.csv')
+                        default='Harris Data/new_data/PCA_FA_VM_results/*.csv')
     parser.add_argument('-t', help='type: gmm, km', type=str, 
                         default='km')
     parser.add_argument('-k', help='maximum k', type=int, 
