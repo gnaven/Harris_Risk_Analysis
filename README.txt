@@ -35,6 +35,7 @@ Dimensionality Reduction:
 				- Factor Analysis
 			- Ouptuts 3 dataframe csv files from input binning structure for: 
 				- PCA, PCA+Varimax, Factor Analysis
+				- Outputs are in PCA_VM_FA_results folder
 		- PCA_NoiseReduceFigure.ipynb: Generates an example graphic of pca noise reduction.
 		- PLOT_PCA.ipynb: Plots figures for the distributions of the data on the PCA model
 		- PLOT_Varimax.ipynb: Plots figures for the distributions of the data on the PCA + Varimax Model.
